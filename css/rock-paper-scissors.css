@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, purple 20%, orange 80%);
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  margin: 7% auto;
+  background-color: darkgrey;
+  opacity: 0.5;
+}
+h1 {
+  position: absolute;
+  left: 35%;
+  margin-top: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.box {
+  width: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box p {
+  font-size: 4.3rem;
+  margin-top: 170px;
+  cursor: pointer;
+}
+p:hover {
+  transform: scale(1.5);
+}
+p:active {
+  transform: scale(1.2);
+}
+
+#result,
+#player-result,
+#computer-result {
+  font-size: 2rem;
+}
+span {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 3rem;
+  margin-left: 40px;
+}
+h3 {
+  align-self: center;
+}
+
+.message-box {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: blueviolet;
+  width: 500px;
+  height: 400px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#canceal {
+  position: absolute;
+  right: 0;
+  bottom: 76%;
+  background-color: brown;
+}
